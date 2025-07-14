@@ -1,0 +1,100 @@
+/* ---------- DARK MODE GLOBAL ---------- */
+body.theme-dark {
+  background:#181a1b;
+  color:#e5e5e5;
+}
+
+/* Texto dentro de .card, .navbar, .list-group, <table>… */
+body.theme-dark .card,
+body.theme-dark .navbar,
+body.theme-dark .list-group-item,
+body.theme-dark .table,
+body.theme-dark footer {
+  background:#242526 !important;   /* fondo oscuro suave */
+  color:#e5e5e5 !important;
+  border-color:#3a3b3c !important;
+}
+
+/* Links de la navbar */
+body.theme-dark .navbar .nav-link,
+body.theme-dark .navbar-brand {
+  color:#e5e5e5 !important;
+}
+body.theme-dark .navbar .nav-link:hover {
+  color:#93c5fd !important;        /* azul claro al pasar */
+}
+
+/* Botones outline pasan a tonos grises/claros */
+body.theme-dark .btn-outline-secondary,
+body.theme-dark .btn-outline-primary,
+body.theme-dark .btn-outline-danger {
+  color:#e5e5e5;
+  border-color:#5a5c5e;
+}
+body.theme-dark .btn-outline-secondary:hover,
+body.theme-dark .btn-outline-primary:hover,
+body.theme-dark .btn-outline-danger:hover {
+  background:#5a5c5e;
+}
+
+/* Botón primario ≈ azul “Bootstrap dark” */
+body.theme-dark .btn-primary {
+  background:#0d6efd;
+  border-color:#0d6efd;
+}
+
+/* Inputs y selects */
+body.theme-dark .form-control,
+body.theme-dark .input-group-text {
+  background:#333;
+  color:#e5e5e5;
+  border-color:#444;
+}
+
+/* Bordes de tabla header */
+body.theme-dark .table thead {
+  background:#303132;
+  color:#e5e5e5;
+}
+
+/* Sombras más suaves para no sobresaturar */
+body.theme-dark .shadow-sm {
+  box-shadow:0 0 .5rem rgba(0,0,0,.5)!important;
+}
+
+body.theme-dark .text-muted {
+  color: #adb5bd !important;   /* gris claro para buen contraste */
+}
+
+/* Enlaces sin subrayado y transiciones suaves */
+a {
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+
+/* Ajuste de la tarjeta principal que usaremos en el Home */
+.hero-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.05);
+}
+
+/* Botones redondeados estilo CrudNote */
+.btn {
+  border-radius: 2rem;
+}
+
+/* Pequeña sombra a las tarjetas CRUD y dashboard */
+.card-soft {
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  transition: transform 0.15s;
+}
+.card-soft:hover {
+  transform: translateY(-2px);
+}
+
+/* Fondo claro para secciones */
+.section-light {
+  background: #f9fafb;
+}

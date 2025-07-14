@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "cbfe",
+      "name": "daniel",
+      "email": "daniel@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "1d43",
+      "name": "brahiam",
+      "email": "brahiam@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "notes": []
+}
